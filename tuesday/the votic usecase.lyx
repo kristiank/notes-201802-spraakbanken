@@ -1,0 +1,320 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+The Votic Use-Case of Morfologilabbet 2.0
+\end_layout
+
+\begin_layout Author
+Kristian Kankainen
+\end_layout
+
+\begin_layout Date
+February 2018
+\end_layout
+
+\begin_layout Section
+Main task
+\end_layout
+
+\begin_layout Itemize
+morphology expansion
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+only nouns vs not only nouns ...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+for creating a prescriptive morphological dictionary
+\end_layout
+
+\begin_layout Itemize
+for creating a written standard for Votic
+\end_layout
+
+\begin_layout Itemize
+lexicon expansion will be needed
+\end_layout
+
+\begin_layout Section
+Resources
+\end_layout
+
+\begin_layout Itemize
+1000 entry dictionary (vot-est-rus-fin-eng)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+with sort-of morphology)
+\end_layout
+
+\begin_layout Itemize
+I'm uncertain whether to swell it
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+30'000 entry phonetic dialectal dictionary 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+with much information 
+\end_layout
+
+\begin_layout Itemize
+and example sentences with translations into Estonian and Russian
+\end_layout
+
+\begin_layout Itemize
+I re(tro)-digitalize it, I will bring it to Karp
+\end_layout
+
+\begin_layout Itemize
+but that's a different project (next project for mfl)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+corpus of my supervisor's text book (spelling variation)
+\end_layout
+
+\begin_layout Itemize
+grammar description (in Russian)
+\end_layout
+
+\begin_layout Section
+Vision
+\end_layout
+
+\begin_layout Itemize
+only use pextract – maximal structural units 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+to map other classifications on top of
+\end_layout
+
+\begin_layout Itemize
+be part of language documentation / documentary linguistics
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+to couple my Votic morphological dictionary to GF (pextract-lmf2gf)
+\end_layout
+
+\begin_layout Section
+Setting
+\end_layout
+
+\begin_layout Itemize
+no users of the language
+\end_layout
+
+\begin_layout Itemize
+language submersion program 
+\begin_inset Quotes eld
+\end_inset
+
+Ämmässe vunukassaa
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+from grandmother to grandchild
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+more than 10, rising trend
+\end_layout
+
+\begin_layout Itemize
+one week once a year
+\end_layout
+
+\begin_layout Itemize
+Votic in the computer
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Done work
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "pextract-xml"
+target "https://github.com/keeleleek/dfdl-praat-textgrid-schema"
+
+\end_inset
+
+(DFDL parser/serializer) as an unstable API for the pfile
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "pextract-lmf"
+target "https://github.com/keeleleek/pextract-xml"
+
+\end_inset
+
+as a stable API for the pfile
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "pextract-lmf2gf"
+target "https://github.com/keeleleek/pextract2gf-votic/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+has nice lemma agnostic features
+\end_layout
+
+\begin_layout Itemize
+work in progress, no flexible type system yet
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Work flow
+\end_layout
+
+\begin_layout Enumerate
+add full example paradigm for the first word
+\end_layout
+
+\begin_layout Enumerate
+take next word from the candidate list
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+if matches existing paradigm
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+then goto 2
+\end_layout
+
+\begin_layout Enumerate
+else goto 1
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+change variable instantiation for naming existing paradigms
+\end_layout
+
+\begin_layout Enumerate
+inspect variable instantiations (quality vs quantity)
+\end_layout
+
+\begin_layout Enumerate
+add higher level class information for features that can collapse/group
+ existing paradigms
+\end_layout
+
+\begin_layout Enumerate
+keep my Votic GF synchronized
+\end_layout
+
+\end_body
+\end_document
